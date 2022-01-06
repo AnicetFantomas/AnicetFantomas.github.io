@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+html{
+    font-family: "Montserrat";
+}
+
+section{
+    background-color: rgb(35, 59, 35);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    border: 3px solid black;
+    width: 40%;
+    min-width: 400px;
+    background-color: skyblue;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+p{
+    text-align: right;
+    margin-right: 30px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.display{
+    width: 90%;
+    height: 85px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 5px;
+    border: 1px double black ;
+    margin-top: -5px;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.disp1{
+    color: rgb(56, 47, 47);
+    font-size: 20px;
+}
+
+.temp-result{
+    color: rgb(56, 47, 47);
+    font-size: 20px;
+    left: 10;
+    bottom: 0;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.buttons{
+    color: black;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    width: 92%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.button{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 6px 6px 30px rgb(177, 173, 173) inset;
+}
+
+.button:hover{
+    background-color: rgb(35, 59, 35);
+    transition: all 0.3s ease;
+}
+
+.btn-0{
+    grid-column: 1/3;
+}
